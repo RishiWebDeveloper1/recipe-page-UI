@@ -5,7 +5,7 @@
 }
 
 body {
-    
+    background-color: hsl(330, 100%, 98%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,6 +24,7 @@ body {
 
 img {
     width: 100%;
+    border-radius: 20px;
 }
 
 h1 {
@@ -43,12 +44,6 @@ h3 {
     font-family: paragraph-font;
     font-weight: 600;
     color: hsl(332, 51%, 32%);
-}
-
-pxyz {
-    color: hsl(30, 54%, 90% ) hsl(30, 18%, 87%) hsl(30, 10%, 34%) hsl(24, 5%, 18%);
-    color: hsl(14, 45%, 36%);
-    color: hsl(332, 51%, 32%) hsl(330, 100%, 98%);
 }
 
 p {
@@ -80,8 +75,15 @@ hr {
 
 .mega-container {
     min-width: 320px;
-    max-width: 1440px;
-    margin: 20px;
+    max-width: 650px;
+    padding: 40px;
+    margin: 50px 0 50px 0;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.container {
+    padding: 0px;
 }
 
 .pink-container {
@@ -106,4 +108,28 @@ hr {
     color: hsl(14, 45%, 36%);
     font-family: paragraph-font;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 650px) {
+    .mega-container {
+        padding: 0;
+        margin: 0;
+        border-radius: 0px;
+    }
+    
+    .container {
+        padding: 40px;
+    }
+    
+    img {
+        
+        border-radius: 0;
+    }
+}
+
+
+#color-box-for-choice-only #not-for use {
+    color: hsl(30, 54%, 90%) hsl(30, 18%, 87%) hsl(30, 10%, 34%) hsl(24, 5%, 18%);
+    color: hsl(14, 45%, 36%);
+    color: hsl(332, 51%, 32%) hsl(330, 100%, 98%);
 }
