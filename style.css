@@ -14,7 +14,7 @@ body {
 
 @font-face {
     font-family: paragraph-font;
-    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
 }
 
 @font-face {
